@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meus Projetos</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+  <link rel="stylesheet" href="projeto1.css" />
+</head>
+<body>
+  <section class="projetos-section">
+    <h2>Projetos em Destaque</h2>
+
+    <div class="carrossel">
+      <div><img src="img/projeto1.png" alt="Projeto 1"></div>
+      <div><video src="video/projeto1.mp4" controls></video></div>
+      <div><img src="img/projeto2.png" alt="Projeto 2"></div>
+    </div>
+
+    <div class="descricao">
+      <h3>Projeto Sistema de Gestão</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus facere officia sint voluptas deserunt repellendus, nisi mollitia officiis modi ducimus error tempore quidem iure atque sapiente expedita a, quae eaque!</p>
+    </div>
+
+    <a href="https://github.com/seuusuario/repositorio" class="btn-git" target="_blank">Ver no GitHub</a>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carrossel').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+      });
+    });
+  </script>
+</body>
+</html>

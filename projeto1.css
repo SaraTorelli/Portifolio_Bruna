@@ -1,0 +1,75 @@
+ body {
+      background: linear-gradient(135deg, #0a0a23, #3a0066);
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      padding: 2rem 5%;
+    }
+        /* Webkit scrollbar */
+    body::-webkit-scrollbar {
+      width: 12px;
+    }
+
+    body::-webkit-scrollbar-track {
+      background: #0a0a23;
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #b366ff, #8e2de2);
+      border-radius: 10px;
+      box-shadow: 0 0 10px #8e2de2, 0 0 20px #4a00e0;
+    }
+
+    .projetos-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: rgba(255,255,255,0.05);
+      border-radius: 20px;
+      padding: 3rem;
+      box-shadow: 0 0 30px #3a0066, 0 0 50px #f0f, 0 0 80px #00f;
+      backdrop-filter: blur(10px);
+    }
+
+    .projetos-section h2 {
+      text-align: center;
+      font-size: 2.8rem;
+      margin-bottom: 2rem;
+      background: linear-gradient(90deg, #8e2de2, #4a00e0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .carrossel {
+      margin-bottom: 2rem;
+    }
+
+    .carrossel img, .carrossel video {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .descricao {
+      font-size: 1.1rem;
+      color: #ccc;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+      text-shadow: 0 0 3px #8e2de2;
+    }
+
+    .btn-git {
+      display: inline-block;
+      padding: 0.9rem 2rem;
+      border-radius: 30px;
+      border: 2px solid #8e2de2;
+      background: transparent;
+      color: #8e2de2;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn-git:hover {
+      background: #8e2de2;
+      color: #fff;
+      box-shadow: 0 0 15px #8e2de2, 0 0 30px #4a00e0;
+      transform: translateY(-3px);
+    }
